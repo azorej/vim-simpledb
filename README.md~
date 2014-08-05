@@ -47,3 +47,11 @@ Default key mapping for execution: `<enter>`.
 If you do not want timings to be displayed, add this to your `.vimrc`:
 
     let g:simpledb_show_timing = 0
+
+
+If you have any questions, [mail me](mailto:itkalin@gmail.com)
+
+## TODO
+
+1. Rewrite code to match vim script conventions
+2. Intellisense

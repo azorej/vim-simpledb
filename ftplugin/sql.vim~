@@ -10,4 +10,4 @@ vnoremap <buffer> <S-F5> :SimpleDBExecuteSqlSilence<cr>
 nnoremap <buffer> <S-F5> m':SimpleDBExecuteSqlSilence <cr>g`'
 nnoremap <buffer> <leader><S-F5> m':'{,'}SimpleDBExecuteSqlSilence<cr>g`'
 
-nnoremap <buffer> gd :SimpleDBGetDescription <cr>
+nnoremap <buffer> gd :SimpleDBGetDescription <cr>g`'

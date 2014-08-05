@@ -143,7 +143,7 @@ endfunction
 function! s:GetDescription()
   let word = expand("<cword>")
   let big_word = expand("<cWORD>")
-  let not_a_word_pat = '[^:()\[\]{},-]*'
+  let not_a_word_pat = '[^:()\[\]{},]*'
   let match_list = matchlist(big_word, not_a_word_pat.word.not_a_word_pat)
   let object_name = match_list[0]
 
